@@ -7,16 +7,16 @@ const Corpo = () => {
     }
 
     return (
-        <View style={styles.container}>
-            <Image source={profilePic} style={{height: 200, width: 200}}/>
+        <View style={ styles.container }>
+            <Image source={profilePic} style={ { height: 200, width: 200 } } />
         </View>
     );
 }
 
 const styles = StyleSheet.create({
     container: {
-        marginTop: 60,
-        marginBottom: 40
+        marginTop: "25%",
+        marginBottom: "15%"
     },
 });
 
