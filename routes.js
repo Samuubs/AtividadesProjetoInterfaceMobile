@@ -1,10 +1,10 @@
 import React from 'react';
 import { createStackNavigator } from '@react-navigation/stack';
 
-import UserList from './components/userList';
-import AddUser from './components/addUser';
-import EditUser from './components/editUser';
-import DeleteUser from './components/deleteUser';
+import UserList from './src/components/userList';
+import AddUser from './src/components/addUser';
+import EditUser from './src/components/editUser';
+import DeleteUser from './src/components/deleteUser';
 
 const Stack = createStackNavigator();
 
