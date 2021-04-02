@@ -25,7 +25,7 @@ const AddUser = ({navigation}) => {
 
     return (
         <View style={styles.container}>
-            <View style={styles.formIMC}>
+            <View style={styles.form}>
                 <TextInput placeholder="Digite seu nome" style={styles.textInput} onChangeText={nome => setNome(nome)}/>
                 <TextInput placeholder="Digite seu curso" style={styles.textInput} onChangeText={curso => setCurso(curso)}/>
                 <TextInput placeholder="Digite sua idade" style={styles.textInput} onChangeText={idade => setIdade(idade)} keyboardType="numeric" />
@@ -55,7 +55,7 @@ const styles = StyleSheet.create({
         fontSize: 20,
         fontWeight: 'bold'
     },
-    formIMC: {
+    form: {
         marginBottom: 40,
         width: "100%",
         alignItems: 'center',
